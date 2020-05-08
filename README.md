@@ -9,4 +9,8 @@
 
 ## try
 
-`python main.py`
+
+```bash
+protoc.exe --python_out=. .\test.proto 
+python main.py
+```
